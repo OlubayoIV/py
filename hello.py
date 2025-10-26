@@ -11,9 +11,15 @@ print(f"hello, {first}")
 # Printing name
 print(name) '''
 
-x = input("What's x?")
-y = input("What's y?")
+'''
+# using int in the code as a function that has the input function in it
+x = int(input("What's x?"))
+y = int(input("What's y?"))
 
-z = int(x) + int(y)
+print(x + y)
+'''
+# using float in the code as i used int earlier
+x = float(input("What's x?"))
+y = float(input("What's y?"))
 
-print(z)
+print(x + y)
