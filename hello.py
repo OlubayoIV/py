@@ -18,9 +18,15 @@ y = int(input("What's y?"))
 
 print(x + y)
 '''
+
+'''
 # using float in the code as i used int earlier
 x = float(input("What's x?"))
 y = float(input("What's y?"))
 
 z = x / y
 print(z)
+'''
+'''#defining a function creates a function
+def hello():
+    print('hello') '''
