@@ -22,4 +22,5 @@ print(x + y)
 x = float(input("What's x?"))
 y = float(input("What's y?"))
 
-print(x + y)
+z = x / y
+print(z)
