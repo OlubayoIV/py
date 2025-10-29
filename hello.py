@@ -39,13 +39,13 @@ def square(n):
     return n * n
 main()'''
 
-#using if statement
+#using if and elif statement in python
 x = int(input("What's x? "))
 y = int(input("What's y? "))
 
 if x < y:
     print('x is less than y')
-if x > y:
+elif x > y:
     print('x is greater than y')
-if x == y:
+elif x == y:
     print('x is equal than y')
