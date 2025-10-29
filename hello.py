@@ -29,7 +29,7 @@ print(z)
 '''
 '''#defining a function creates a function
 def hello():
-    print('hello') '''
+    print('hello') 
 
 def main():
     x = int(input("What's x? "))
@@ -37,4 +37,15 @@ def main():
 
 def square(n):
     return n * n
-main()
+main()'''
+
+#using if statement
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x < y:
+    print('x is less than y')
+if x > y:
+    print('x is greater than y')
+if x == y:
+    print('x is equal than y')
