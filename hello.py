@@ -47,7 +47,7 @@ y = int(input("What's y? "))
 if x == y:
     print('x is equal to y')
 else:
-    print('x is not equal than y') '''
+    print('x is not equal than y')
 
 score = int(input('Score: '))
 
@@ -61,3 +61,18 @@ elif score >= 60 and score <70:
     print('Grade: D')
 else:
     print('Grade: F')
+
+#realizing even or odd numbers using if and else
+x = int(input('What is x? '))
+if x % 2 == 0:
+    print("Even")
+else:
+    print('Odd')
+'''
+
+#using match to nmake codes shorter
+name = input("What's your name? ")
+
+match name:
+    case 'Ayo':
+        print()
