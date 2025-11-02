@@ -68,11 +68,16 @@ if x % 2 == 0:
     print("Even")
 else:
     print('Odd')
-'''
 
-#using match to nmake codes shorter
+
+#using match to nmake codes shorter (this is case sensitive)
 name = input("What's your name? ")
 
 match name:
+    case 'Ayo' | 'Yo' | 'Indeed':
+        print('Emea')
     case 'Ayo':
-        print()
+        print('Afea')'''
+print ('meow')
+print ('meow')
+print ('meow')
