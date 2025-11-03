@@ -82,7 +82,11 @@ match name:
 i = 0
 while i < 3:
     print("meow")
-    i += 1'''
+    i += 1
 #containing multiple values using list and for loops
 for i in [0, 1, 2]:
+    print('meow')'''
+
+#containing multiple values using range and for loops
+for i in range(3):
     print('meow')
