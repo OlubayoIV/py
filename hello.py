@@ -78,6 +78,8 @@ match name:
         print('Emea')
     case 'Ayo':
         print('Afea')'''
-print ('meow')
-print ('meow')
-print ('meow')
+#creating a loop using while
+i = 0
+while i < 3:
+    print("meow")
+    i = i + 1
