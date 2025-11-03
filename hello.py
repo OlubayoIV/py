@@ -77,9 +77,12 @@ match name:
     case 'Ayo' | 'Yo' | 'Indeed':
         print('Emea')
     case 'Ayo':
-        print('Afea')'''
+        print('Afea')
 #creating a loop using while
 i = 0
 while i < 3:
     print("meow")
-    i = i + 1
+    i += 1'''
+#containing multiple values using list and for loops
+for i in [0, 1, 2]:
+    print('meow')
