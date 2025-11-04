@@ -85,11 +85,13 @@ while i < 3:
     i += 1
 #containing multiple values using list and for loops
 for i in [0, 1, 2]:
-    print('meow')'''
+    print('meow')
 
 #containing multiple values using range and for loops
-x = int(input('Whats n? '))
-if n < 0:
-    n = int(input('Whats n? '))
-for i in range(3):
-    print('meow')
+while True:
+    n = int(input('Whats n? ')) 
+    if n > 0:
+        break
+
+for _ in range(n):
+    print('meow')'''
