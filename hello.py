@@ -88,5 +88,8 @@ for i in [0, 1, 2]:
     print('meow')'''
 
 #containing multiple values using range and for loops
+x = int(input('Whats n? '))
+if n < 0:
+    n = int(input('Whats n? '))
 for i in range(3):
     print('meow')
