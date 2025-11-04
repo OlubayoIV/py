@@ -95,3 +95,8 @@ while True:
 
 for _ in range(n):
     print('meow')'''
+
+students = ['jazz', 'amy', 'leo']
+
+for student in students:
+    print(student)
