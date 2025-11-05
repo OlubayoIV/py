@@ -95,9 +95,18 @@ while True:
         break
 
 for _ in range(n):
-    print('meow')'''
+    print('meow')
 
 students = ['jazz', 'amy', 'leo']
 
 for student in students:
-    print(student)
+    print(student)'''
+
+#using dict
+students = {
+    'Hermione': 'Gryffindor',
+    'Heone': 'Gryfor',
+    'Hermne': 'Grindor'
+    }
+
+print(students['Hermione'])
