@@ -88,6 +88,7 @@ for i in [0, 1, 2]:
     print('meow')
 
 #containing multiple values using range and for loops
+#range expects integer so it doesn't work with str except there is another command to help it work
 while True:
     n = int(input('Whats n? ')) 
     if n > 0:
