@@ -109,4 +109,6 @@ students = {
     'Hermne': 'Grindor'
     }
 
-print(students['Hermione'])
+for student in students:
+    print(student)
+#print(students['Hermione'])
