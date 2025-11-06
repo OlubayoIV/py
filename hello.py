@@ -108,6 +108,11 @@ students = {
     'Heone': 'Gryfor',
     'Hermne': 'Grindor'
     }
+students = [
+    {'name': 'Hermione', 'house': 'Gryffindor'},
+    {'name' : 'Heone', 'house': 'Gryfor'},
+    {'name' : 'Hermne', 'house': 'Grindor'}
+]
 
 for student in students:
     print(student)
