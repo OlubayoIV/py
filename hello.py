@@ -100,7 +100,7 @@ for _ in range(n):
 students = ['jazz', 'amy', 'leo']
 
 for student in students:
-    print(student)'''
+    print(student)
 
 #using dict
 students = {
@@ -108,12 +108,17 @@ students = {
     'Heone': 'Gryfor',
     'Hermne': 'Grindor'
     }
+
+for student in students:
+    print(student)'''
+
 students = [
     {'name': 'Hermione', 'house': 'Gryffindor'},
     {'name' : 'Heone', 'house': 'Gryfor'},
     {'name' : 'Hermne', 'house': 'Grindor'}
 ]
 
+
 for student in students:
-    print(student)
+    print(student['name'], student['house'], sep=', ')
 #print(students['Hermione'])
