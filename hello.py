@@ -110,7 +110,7 @@ students = {
     }
 
 for student in students:
-    print(student)'''
+    print(student)
 
 students = [
     {'name': 'Hermione', 'house': 'Gryffindor'},
@@ -121,4 +121,8 @@ students = [
 
 for student in students:
     print(student['name'], student['house'], sep=', ')
-#print(students['Hermione'])
+#print(students['Hermione'])'''
+
+#creating mario visuals
+for _ in range(3):
+    print('#')
