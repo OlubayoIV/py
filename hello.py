@@ -124,5 +124,12 @@ for student in students:
 #print(students['Hermione'])'''
 
 #creating mario visuals
+def main():
+    print_column(3)
+def print_column(height):
+    print('#\n' * height, end='')
+
+main()
+
 for _ in range(3):
     print('#')
