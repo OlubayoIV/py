@@ -139,5 +139,9 @@ def print_square(size):
         print()
 main()'''
 
-x = input(input("what's x?"))
-print(f"x is {x}")
+#using try and except to catch errors with the ecxcept syntax errors
+try:
+    x = int(input("what's x?"))
+    print(f"x is {x}")
+except ValueError:
+    print("x is nit an integer")
