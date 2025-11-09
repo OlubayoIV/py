@@ -121,7 +121,7 @@ students = [
 
 for student in students:
     print(student['name'], student['house'], sep=', ')
-#print(students['Hermione'])'''
+#print(students['Hermione'])
 
 #creating mario visuals
 def main():
@@ -137,4 +137,7 @@ def print_square(size):
             #print brick
             print('#', end='')
         print()
-main()
+main()'''
+
+x = input(input("what's x?"))
+print(f"x is {x}")
