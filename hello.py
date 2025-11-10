@@ -139,9 +139,11 @@ def print_square(size):
         print()
 main()'''
 
-#using try and except to catch errors with the ecxcept syntax errors
+#using try, except and else to catch errors with the ecxcept syntax errors
 try:
     x = int(input("what's x?"))
     print(f"x is {x}")
 except ValueError:
-    print("x is nit an integer")
+    print("x is not an integer")
+else:
+    print(f"x is {x}")
