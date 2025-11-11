@@ -137,7 +137,7 @@ def print_square(size):
             #print brick
             print('#', end='')
         print()
-main()'''
+main()
 
 #using try, except and else to catch errors with the ecxcept syntax errors
 try:
@@ -146,4 +146,8 @@ try:
 except ValueError:
     print("x is not an integer")
 else:
-    print(f"x is {x}")
+    print(f"x is {x}")'''
+import random
+
+coin = random.choice(['heads', 'tails'])
+print(coin)
