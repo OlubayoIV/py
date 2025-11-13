@@ -146,10 +146,17 @@ try:
 except ValueError:
     print("x is not an integer")
 else:
-    print(f"x is {x}")'''
+    print(f"x is {x}")
+#shuffling cards using importing modules
 import random
 
 cards = ['jack', 'queen', 'king']
 random.shuffle(cards)
 for card in cards:
-    print(card)
+    print(card)'''
+#using sys module to get the second argument of my terminal like hello.py ayo
+import sys
+try:
+    print("hello, my name is", sys.argv[1])
+except IndexError:
+    print("Too few arguments")
